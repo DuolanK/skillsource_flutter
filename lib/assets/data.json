@@ -1,0 +1,68 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "mapData": {
+            "image": "lib/assets/Map.png",
+            "user": {
+                "image": "lib/assets/User.png",
+                "height": 40.0,
+                "width": 40.0,
+                "x": 50.0,
+                "y": 100.0
+            }
+        },
+        "answers": [
+            {
+                "text": "London",
+                "correct": false
+            },
+            {
+                "text": "Paris",
+                "correct": true,
+                "x": 50.0,
+                "y": 120.0
+            },
+            {
+                "text": "Berlin",
+                "correct": false
+            },
+            {
+                "text": "Madrid",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the largest country in the world?",
+        "mapData": {
+            "image": "lib/assets/Map.png",
+            "user": {
+                "image": "lib/assets/User.png",
+                "height": 40.0,
+                "width": 40.0,
+                "x": 50.0,
+                "y": 120.0
+            }
+        },
+        "answers": [
+            {
+                "text": "China",
+                "correct": false
+            },
+            {
+                "text": "Russia",
+                "correct": true,
+                "x": 50.0,
+                "y": 180.0
+            },
+            {
+                "text": "India",
+                "correct": false
+            },
+            {
+                "text": "United States",
+                "correct": false
+            }
+        ]
+    }
+]
