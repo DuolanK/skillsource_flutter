@@ -23,7 +23,7 @@ class _CourseScreenState extends State<CourseScreen> {
       },
       {
         "type": "quiz",
-        "title": "II. Материалы для сварк",
+        "title": "II. Материалы для сварки",
         "description": "Вопросы по материалам",
         "isAccessible": true,
         "quizId": 2

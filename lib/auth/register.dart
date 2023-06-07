@@ -28,7 +28,6 @@ class _RegisterPageState extends State<RegisterPage> {
       body: jsonEncode(<String, dynamic>{
         'email': email,
         'password1': password,
-        'password2': passwordconf,
       }),
     );
 
@@ -90,18 +89,6 @@ class _RegisterPageState extends State<RegisterPage> {
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter a password';
-                  }
-                  return null;
-                },
-              ),
-              TextFormField(
-                controller: _passwordconfController,
-                decoration:
-                    const InputDecoration(labelText: 'Password confimation'),
-                obscureText: true,
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Confirm password';
                   }
                   return null;
                 },
