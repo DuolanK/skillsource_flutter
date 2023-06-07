@@ -5,6 +5,7 @@ import 'package:skillsource/screens/onboarding_screen.dart';
 import 'package:skillsource/themes/app_theme.dart';
 import 'package:skillsource/auth/login.dart';
 import 'package:skillsource/auth/register.dart';
+import 'package:skillsource/api/get_data.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
         '/dashboard': (context) => DashboardScreen(),
         '/register': (context) => const RegisterPage(),
         '/login': (context) => const LoginPage(),
-        '/homescreen': (context) => HomeScreen()
+        '/homescreen': (context) => HomeScreen(),
+        '/getdata': (context) => GetDataPage(),
       },
     );
   }

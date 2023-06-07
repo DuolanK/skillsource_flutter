@@ -21,7 +21,7 @@ class _RegisterPageState extends State<RegisterPage> {
     final passwordconf = _passwordconfController.text;
 
     final response = await http.post(
-      Uri.parse('http://127.0.0.1:8000/account/registration/'),
+      Uri.parse('http://127.0.0.1:8000/account/api/register/'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
