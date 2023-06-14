@@ -24,7 +24,7 @@ class _GetDataPageState extends State<GetDataPage> {
 
       if (response.statusCode == 200) {
         final directory = await getApplicationDocumentsDirectory();
-        final filePath = '${directory.path}/data.json';
+        final filePath = '${directory.path}/assets/data/quiz.json';
 
         final file = File(filePath);
         await file.writeAsString(response.body);
