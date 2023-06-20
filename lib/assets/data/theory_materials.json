@@ -1,0 +1,10 @@
+[
+    {
+        "theoryId": 1,
+        "content": "Welding is a process of joining two or more pieces of metal together by heating the surfaces to the point of melting and then allowing them to cool and fuse. There are many different types of welding, including MIG welding, TIG welding, stick welding, and flux-cored welding. Each type of welding has its own unique advantages and disadvantages, and the choice of which type to use will depend on the specific needs of the project.\n\nOne of the most important considerations when welding is safety. Welding can be a hazardous activity, and it is important to take proper precautions to protect yourself and others from injury. This includes wearing protective clothing and gear, such as a welding helmet, gloves, and a jacket, as well as ensuring that the welding area is properly ventilated.\n\nOverall, welding is a valuable skill that can be used in many different industries, including construction, manufacturing, and repair. By understanding the basics of welding and practicing proper safety measures, you can become a skilled welder and contribute to the success of your projects."
+    },
+    {
+        "theoryId": 2,
+        "content": "MIG welding, also known as gas metal arc welding (GMAW), is a type of welding that uses a wire electrode to feed a continuous stream of filler metal into the weld. The wire is fed through a gun and is melted by an electric arc, which fuses the wire and the metal being welded together.\n\nOne of the advantages of MIG welding is that it is a relatively easy process to learn and use. It can also be used to weld a variety of different metals, including steel, stainless steel, and aluminum. Another advantage of MIG welding is that it can be done quickly and efficiently, making it a popular choice for large-scale projects.\n\nHowever, MIG welding does have some disadvantages. One of these is that it can produce a lot of spatter, which can be difficult to clean up. Additionally, MIG welding requires a shielding gas to protect the weld from oxidation and other contaminants, which can add to the cost and complexity of the process."
+    }
+]

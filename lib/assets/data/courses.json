@@ -1,0 +1,30 @@
+[
+    {
+        "type": "quiz",
+        "title": "Quiz 1",
+        "description": "Short description for Quiz 1",
+        "isAccessible": true,
+        "quizId": 1
+    },
+    {
+        "type": "text",
+        "title": "Theory Material 1",
+        "description": "Short description for Theory Material 1",
+        "isAccessible": true,
+        "theoryId": 1
+    },
+    {
+        "type": "quiz",
+        "title": "Quiz 2",
+        "description": "Short description for Quiz 2",
+        "isAccessible": true,
+        "quizId": 1
+    },
+    {
+        "type": "text",
+        "title": "Theory Material 2",
+        "description": "Short description for Theory Material 2",
+        "isAccessible": false,
+        "theoryId": 2
+    }
+]
