@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'QuizApp',
+      title: 'SkillsourseApp',
       initialRoute: '/myapp',
       routes: {
         '/dashboard': (context) => DashboardScreen(),
