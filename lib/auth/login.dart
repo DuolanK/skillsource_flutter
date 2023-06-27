@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
     final email = _emailController.text;
     final password = _passwordController.text;
     final response = await http.post(
-      Uri.parse('http://127.0.0.1:8000/account/api/login/'),
+      Uri.parse('https://flungo.vercel.app/account/api/login/'),
       headers: <String, String>{
         'Content-Type': 'application/x-www-form-urlencoded',
       },

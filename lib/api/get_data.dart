@@ -4,7 +4,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
 
 Future<void> fetchData() async {
-  final apiUrl = 'http://127.0.0.1:8000';
+  final apiUrl = 'https://flungo.vercel.app';
 
   final quizDataResponse = await http.get(Uri.parse('$apiUrl/quiz/'));
   final questionDataResponse = await http.get(Uri.parse('$apiUrl/question/'));

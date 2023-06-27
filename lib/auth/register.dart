@@ -27,7 +27,7 @@ class _RegisterPageState extends State<RegisterPage> {
         .v4(); // Генерируем уникальный идентификатор (ID) для пользователя
 
     final response = await http.post(
-      Uri.parse('http://127.0.0.1:8000/account/api/register/'),
+      Uri.parse('https://flungo.vercel.app/account/api/register/'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
